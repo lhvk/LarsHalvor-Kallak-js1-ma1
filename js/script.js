@@ -48,3 +48,13 @@ const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = `<p style="background: yellow">New paragraph</p>`;
 
 // Question 7
+
+function listOfCats(list) {
+  for (let i = 0; i < list.length; i++) {
+    console.log(list[i].name);
+  }
+}
+
+listOfCats(cats);
+
+// Question 8
